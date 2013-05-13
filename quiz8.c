@@ -16,6 +16,7 @@ int main(void) {
                " in the working directory.\n");
         return EXIT_FAILURE;
     }
+    /Here are some changes!!*/
     FILE *const output_file = fopen("output.txt", "w");
     /* REPLACE THIS COMMENT WITH YOUR CODE */
     fclose(input_file);
