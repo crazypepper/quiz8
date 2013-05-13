@@ -16,10 +16,10 @@ int main(void) {
                " in the working directory.\n");
         return EXIT_FAILURE;
     }
-    /*Here are some changes!!*/
-    /*Another Change*/
     FILE *const output_file = fopen("output.txt", "w");
-    /* REPLACE THIS COMMENT WITH YOUR CODE */
+    int c;
+    while((c=getc(input_file))!=EOF)
+        putchar(c);
     fclose(input_file);
     fclose(output_file);
     return EXIT_SUCCESS;
