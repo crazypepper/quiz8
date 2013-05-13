@@ -17,6 +17,7 @@ int main(void) {
         return EXIT_FAILURE;
     }
     /Here are some changes!!*/
+    /*Another Change*/
     FILE *const output_file = fopen("output.txt", "w");
     /* REPLACE THIS COMMENT WITH YOUR CODE */
     fclose(input_file);
